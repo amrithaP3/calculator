@@ -20,13 +20,13 @@ export default function App() {
     // Define button color styles
     const buttonStyle = (value) => {
         if (pink.includes(value)) {
-            return "text-[#e070b9] w-[67px] h-9 bg-[#fde1ff] rounded-2xl border-[3px] border-solid border-[#cdc4dd] shadow-[0px_4px_4px_#00000040]";
+            return "hover:bg-[#f9cbe2] text-[#e070b9] w-[67px] h-9 bg-[#fde1ff] rounded-2xl border-[3px] border-solid border-[#cdc4dd] shadow-[0px_4px_4px_#00000040]";
         } else if (yellow.includes(value)) {
-            return "text-[#b79f71] text-[25px] w-[67px] h-[49px] top-0 left-0 bg-[#fafcde] rounded-2xl border-[3px] border-solid border-[#ded0c5] shadow-[0px_4px_4px_#00000040] pb-0.5";
+            return "hover:bg-[#e9dfd7] text-[#b79f71] text-[25px] w-[67px] h-[49px] top-0 left-0 bg-[#fafcde] rounded-2xl border-[3px] border-solid border-[#ded0c5] shadow-[0px_4px_4px_#00000040] pb-0.5";
         } else if (green.flat().includes(value)) {
-            return "text-[#71b795] text-[25px] w-[67px] h-[49px] top-0 left-0 bg-[#defcea] rounded-2xl border-[3px] border-solid border-[#c4ddd3] shadow-[0px_4px_4px_#00000040]";
+            return "hover:bg-[#d7e9e2] text-[#71b795] text-[25px] w-[67px] h-[49px] top-0 left-0 bg-[#defcea] rounded-2xl border-[3px] border-solid border-[#c4ddd3] shadow-[0px_4px_4px_#00000040]";
         } else if (equals.includes(value)) {
-            return "text-[#b7719b] text-[25px] w-[162px] h-[49px] top-0 left-0 bg-[#fcdee4] rounded-2xl border-[3px] border-solid border-[#d8c4dd] shadow-[0px_4px_4px_#00000040] pb-1";
+            return "hover:bg-[#f3eaf5] text-[#b7719b] text-[25px] w-[162px] h-[49px] top-0 left-0 bg-[#fcdee4] rounded-2xl border-[3px] border-solid border-[#d8c4dd] shadow-[0px_4px_4px_#00000040] pb-1";
         }
     }
 
